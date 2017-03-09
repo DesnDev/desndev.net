@@ -1,0 +1,69 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%; }
+
+header {
+  height: 100%;
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url("/images/bg_home.jpg");
+  background-size: cover; }
+  header nav {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0; }
+    header nav #brand {
+      margin: 0;
+      padding: 0;
+      max-width: 100px;
+      float: left; }
+      header nav #brand a {
+        text-decoration: none; }
+      header nav #brand img {
+        width: 60%;
+        padding: 20%; }
+    header nav ul {
+      text-align: right;
+      margin: 0;
+      padding: 0;
+      float: right; }
+      header nav ul li {
+        margin: 0;
+        padding: 35px;
+        display: inline-block; }
+        header nav ul li a, header nav ul li a:focus, header nav ul li a:hover, header nav ul li a:active {
+          text-decoration: none;
+          color: #fff;
+          font-family: 'Roboto Mono';
+          font-size: 20px;
+          margin: 0;
+          padding: 0;
+          text-transform: uppercase; }
+        header nav ul li a:hover {
+          color: gainsboro; }
+      header nav ul:after {
+        clear: both; }
+  header .home-content {
+    margin: 0;
+    padding: 0; }
+    header .home-content h1 {
+      padding: 0;
+      margin: 0;
+      color: #222;
+      font-family: 'Roboto Mono', sans-serif;
+      font-weight: 700; }
