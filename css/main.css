@@ -1,0 +1,66 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+header {
+  height: 100%;
+  width: 100%;
+  background-image: url("/images/bg_home.jpg");
+  background-size: cover;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  header nav {
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100px; }
+    header nav #brand {
+      width: 100px;
+      float: left; }
+      header nav #brand img {
+        width: 60%;
+        padding: 20%; }
+    header nav ul {
+      width: calc(100% - 100px);
+      float: right;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      height: 100%;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+      justify-content: flex-end; }
+      header nav ul li {
+        list-style-type: none;
+        padding: 0 1em; }
+        header nav ul li a, header nav ul li a:hover, header nav ul li a:focus {
+          text-decoration: none;
+          color: #fff;
+          font-family: "Roboto Mono", sans-serif;
+          font-size: 1em;
+          display: block; }
+        header nav ul li a:hover {
+          color: #e6e6e6; }
+  header .home-content h1 {
+    color: #222;
+    font-family: 'roboto mono';
+    text-transform: uppercase;
+    font-weight: bolder; }
