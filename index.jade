@@ -8,15 +8,33 @@ html
 				#brand
 					a(href="#")
 						img(src="/images/logo.png")
+				.mobile.menu
+					span
+						|Mobile
+					span.mobilebar
+						i.mobile.fa.fa-bars
 				ul
-					li
-						a(href="#") Home
-					li
-						a(href="#") About
-					li
-						a(href="#") Work
-					li
-						a(href="#") Get in Touch
+					li.mobileview
+						i.fa.fa-chevron-circle-down
+						|&nbspMenu
+						span.mobile-cross
+							i.mobile.fa.fa-times-circle-o(aria-hidden="true")
+					li.home
+						a(href="#") 
+							i.mobile.fa.fa-home
+							|&nbspHome
+					li.about
+						a(href="#")
+							i.mobile.fa.fa-info
+							|&nbspHome
+					li.work
+						a(href="#")
+							i.mobile.fa.fa-briefcase
+							|&nbspWork
+					li.contact
+						a(href="#")
+							i.mobile.fa.fa-envelope
+							|&nbspGet in Touch
 			.home-content
 				h1 Code Better
 				h1 Design Smarter!
