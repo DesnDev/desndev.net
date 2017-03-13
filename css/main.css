@@ -2393,7 +2393,8 @@ header {
       align-items: center;
       -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
-      justify-content: flex-end; }
+      justify-content: flex-end;
+      opacity: 1; }
       header nav ul li {
         list-style-type: none;
         padding: 0 1em; }
@@ -2416,7 +2417,8 @@ header {
           left: 0;
           width: 100%;
           height: 100%;
-          display: block; }
+          display: none;
+          opacity: 0; }
           header nav ul li {
             display: -webkit-flex;
             display: -ms-flexbox;
@@ -2442,7 +2444,8 @@ header {
             position: absolute;
             color: #444;
             top: 5px;
-            right: 4px; } }
+            right: 4px;
+            cursor: pointer; } }
   header .home-content h1 {
     color: #222;
     font-family: 'roboto mono';
@@ -2450,7 +2453,9 @@ header {
     font-weight: bolder; }
 
 .menu {
-  width: 100%; }
+  width: 100%;
+  cursor: pointer;
+  font-family: "Roboto Mono", sans-serif; }
   .menu span {
     color: #fff;
     padding-left: 5px; }
